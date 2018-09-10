@@ -11,6 +11,11 @@ Learn more about JavaScript at https://developer.mozilla.org/en-US/Learn/JavaScr
 When you're done, you can delete all of this grey text, it's just a comment.
 */
 
+function getHelp() {
+	alert("To begin, input the values for the height and width of the two matrices\n" + 
+	" *Remember the width of the first matrix must be equal to the height of the second matrix*\n"
+	+ "Once you have entered these values hit submit\n Then input each value for the matrices")
+	}
 
 function checkInput() {
   var h1 = document.forms["form1"]["h1"].value;
